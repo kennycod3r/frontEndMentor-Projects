@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0% auto;
+  text-align: center;
+  max-width: 1440px;
+  color: #252323;
+  font-family: "Outfit", sans-serif;
+  background-color: #7b879d;
+  background-color: #d6e2f0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whitewrapper {
+  border-radius: 20px;
+  background-color: white;
+  padding: 15px;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.03);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.whitewrapper h1 {
+  font-weight: 700;
+  color: #1f3251;
+  margin-bottom: 1rem;
+}
+
+.whitewrapper p {
+  font-weight: 500;
+  color: #7b879d;
+}
+
+.whitetext {
+  padding: 14px;
+  text-align: center;
+}
+
+.blueQr {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.blueQr img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.whitetext {
+  padding: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 500px) {
+  .whitewrapper {
+    max-width: 400px;
+  }
+}
+/*# sourceMappingURL=projecta.css.map */
